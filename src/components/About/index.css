@@ -1,0 +1,27 @@
+/* Write your CSS code here */
+.about-card {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-img {
+  height: 200px;
+  width: 200px;
+}
+.about-text {
+  font-size: 35px;
+  color: #6d396b;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .about-img {
+    height: 40%;
+    width: 60%;
+  }
+  .about-text {
+    font-size: 55px;
+  }
+}
